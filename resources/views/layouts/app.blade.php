@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>@yield('title')</title>
 
-    <!--Tailwind CSS link start-->
+    <!--Tailwind CSS link starts-->
     @vite('resources/css/app.css')
-    <!--Tailwind CSS link end-->
+    <!--Tailwind CSS link ends-->
 </head>
 <body>
     <header>
@@ -22,5 +22,10 @@
     <footer>
         @include('layouts.footer')
     </footer>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+     @stack('scripts')
 </body>
 </html>
