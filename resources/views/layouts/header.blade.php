@@ -4,7 +4,7 @@
         <!-- Logo part -->
         <div class="flex-shrink-0">
             <a href="/">
-                <img src="" alt="logo" class="h-12 md:h-16">
+                <img src="{{ asset('images/logo-crop-1.png') }}" alt="logo" class="h-18 md:h-25">
             </a>
         </div>
 
@@ -48,23 +48,19 @@
             </div>
             
 
-            <!-- Language Dropdown -->
-            <div class="relative">
-                <select name="language" class="text-gray-900 bg-white border border-gray-300 rounded-full px-6 py-2 focus:outline-none focus:ring-2 focus:ring-purple-500 hover:bg-purple-50 transition-all duration-200">
-                    <option value="en" class="flex items-center">
-                        🇬🇧 ENG
-                    </option>
-                    <option value="es" class="flex items-center">
-                        🇪🇸 ESP
-                    </option>
-                    <option value="fr" class="flex items-center">
-                        🇫🇷 FR
-                    </option>
-                    <option value="de" class="flex items-center">
-                        🇩🇪 DE
-                    </option>
-                </select>
-            </div>
+<!-- Language Dropdown -->
+<div class="relative">
+    <select name="language" class="text-gray-900 bg-white border border-gray-300 rounded-full px-4 py-1.5 focus:outline-none focus:ring-2 focus:ring-purple-500 hover:bg-purple-50 transition-all duration-200 appearance-none pr-8">
+        <option value="en">🇬🇧 ENG</option>
+        <option value="es">🇪🇸 ESP</option>
+        <option value="fr">🇫🇷 FR</option>
+        <option value="de">🇩🇪 DE</option>
+    </select>
+    <svg class="absolute top-1/2 right-4 transform -translate-y-1/2 pointer-events-none w-4 h-4 text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+    </svg>
+</div>
+
         </div>
     </div>
 </nav>

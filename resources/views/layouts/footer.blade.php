@@ -1,13 +1,5 @@
 <footer class="bg-purple-700 text-white py-8">
     <div class="max-w-screen-xl mx-auto px-6 flex flex-wrap justify-between items-stretch">
-        <!-- Logo or Brand Section -->
-        <div class="flex-shrink-0">
-            <a href="/" class="text-white font-semibold text-xl">
-                <!-- Add logo image here -->
-                <img src="" alt="Logo" class="h-12">
-            </a>
-        </div>
-
         <!-- Quick Links -->
         <div class="flex flex-wrap space-x-8 mt-4 md:mt-0 flex-1">
             <div>
@@ -16,7 +8,6 @@
                     <li><a href="#" class="hover:text-pink-300 transition-colors">Home</a></li>
                     <li><a href="#" class="hover:text-pink-300 transition-colors">Products</a></li>
                     <li><a href="#" class="hover:text-pink-300 transition-colors">Community</a></li>
-                    <li><a href="#" class="hover:text-pink-300 transition-colors">Contact</a></li>
                     <li><a href="#" class="hover:text-pink-300 transition-colors">About Us</a></li>
                     <li><a href="#" class="hover:text-pink-300 transition-colors">Our Story</a></li>
                     <li><a href="#" class="hover:text-pink-300 transition-colors">Mission</a></li>
