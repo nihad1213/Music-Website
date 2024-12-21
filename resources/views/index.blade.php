@@ -15,12 +15,12 @@
     <div class="swiper mySwiper">
         <div class="swiper-wrapper">
             <!-- Single Album Card -->
-            <div class="swiper-slide bg-white rounded-lg shadow-md p-4 cursor-pointer transition-all hover:scale-105 w-72 mx-2 flex flex-col">
+            <div class="border-2 swiper-slide bg-white rounded-lg shadow-md p-4 cursor-pointer transition-all hover:scale-105 w-64 mx-2 flex flex-col">
                 <a href="#" class="flex flex-col h-full">
                     <!-- Album Image Section -->
                     <div class="relative w-full">
                         <img src="https://via.placeholder.com/150x150" alt="Album 1" class="rounded-lg w-full h-48 object-cover mb-4">
-                        <span class="absolute top-2 right-2 bg-purple-600 text-white text-xs px-2 py-1 rounded">New Release</span>
+                        <span class="absolute top-2 right-2 bg-pink-500 text-white text-xs px-2 py-1 rounded">New Release</span>
                     </div>  
 
                     <!-- Album Info Section -->
@@ -86,7 +86,7 @@
                         <!-- Action Buttons -->
                         <div class="flex justify-between mt-4">
                             <!-- Add to Cart Button -->
-                            <a href="#" class="px-5 py-2 text-sm font-bold text-purple-500 border-2 border-purple-500 rounded-full shadow-md hover:bg-purple-500 hover:text-white hover:shadow-lg transition-all duration-300 transform hover:scale-105 mx-auto block text-center">
+                            <a href="#" class="px-5 py-2 text-sm font-bold text-pink-500 border-2 border-pink-500 rounded-full shadow-md hover:bg-pink-500 hover:text-white hover:shadow-lg transition-all duration-300 transform hover:scale-105 mx-auto block text-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 inline-block mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
                                 </svg>
@@ -94,21 +94,21 @@
                             </a>
 
                             <!-- Wishlist Button -->
-                            <a href="#" class="px-5 py-2 text-sm font-bold text-purple-500 border-2 border-purple-500 rounded-full shadow-md hover:bg-purple-500 hover:text-white hover:shadow-lg transition-all duration-300 transform hover:scale-105 mx-auto block text-center mt-2">
+                            <a href="#" class="px-5 py-2 text-sm font-bold text-pink-500 border-2 border-pink-500 rounded-full shadow-md hover:bg-pink-500 hover:text-white hover:shadow-lg transition-all duration-300 transform hover:scale-105 mx-auto block text-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 inline-block mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-                                </svg>
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                                </svg>                                
                                 Wishlist
                             </a>
                         </div>
                     </div>
                 </a>
-            </div>              
+            </div>
         </div>
     </div>
 
     <!-- Header for the section -->
-    <div class="relative mb-4">
+    <div class="relative mb-4 mt-12">
         <h2 class="text-xl font-bold text-white px-4 py-2 inline-block bg-purple-700 relative skew-x-[-12deg]">
             <span class="inline-block skew-x-[12deg]">Best-Selling</span>
         </h2>
@@ -178,7 +178,7 @@
     </div>
 
     <!-- Header for the section -->
-    <div class="relative mb-4">
+    <div class="relative mb-4 mt-12">
         <h2 class="text-xl font-bold text-white px-4 py-2 inline-block bg-purple-700 relative skew-x-[-12deg]">
             <span class="inline-block skew-x-[12deg]">This Week’s Most Collected</span>
         </h2>
