@@ -68,7 +68,7 @@
                                     <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="1.5"/>
                                     <path d="M12 2v4m0 12v4m10-12h-4m-12 0h-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
                                 </svg>
-                                <span>New Arrival</span>
+                                <span>Label: New Arrival</span>
                             </p>
                             
                         </div>  
